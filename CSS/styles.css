@@ -179,6 +179,7 @@ header .nav-btn {
     justify-content: space-between;
     padding-top: 5em;
     width: 100%;
+    padding-left: 5em;
 }
 
 .about-col-1 img {
@@ -194,6 +195,30 @@ header .nav-btn {
 }
 
 /* ABOUT-US END */
+
+
+/* ABOUT DETAILS */
+
+.about-details {
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-details .about-details-col-1 {
+    width: 30%;
+}
+
+.about-details .about-details-col-2 {
+    width: 30%;
+}
+
+.about-details .about-details-col-3 {
+    width: 30%;
+}
+
+
+/* ABOUT DETAILS END */
 
 
 
