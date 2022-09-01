@@ -6,6 +6,10 @@ html {
     font-size: 1rem;
 }
 
+/* img {
+    width: 100%;
+} */
+
 body {
     box-sizing: border-box;
     margin: 0;
@@ -36,6 +40,16 @@ h1 {
     margin: 0;
     padding: 0 0 1em 0;
 
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 50px;
+    letter-spacing: 1.32px;
+    color: #393737;
 }
 
 p {
@@ -154,6 +168,32 @@ header .nav-btn {
 .hero h1 {
     padding: .5em 0;
 }
+
+/* HERO END */
+
+
+/* ABOUT-US */
+
+.about-col-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5em;
+    width: 100%;
+}
+
+.about-col-1 img {
+    max-width: 100%;
+}
+
+.about-col-1 .about-inner-col-1 {
+    width: 60%;
+}
+
+.about-col-1 .about-inner-col-2 {
+    width: 40%;
+}
+
+/* ABOUT-US END */
 
 
 
