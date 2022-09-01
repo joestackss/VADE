@@ -360,6 +360,7 @@ h2 {
 
     .about-col-1 img {
         max-width: 80%;
+        height: auto;
     }
 
     .about-col-1 .about-inner-col-1 {
