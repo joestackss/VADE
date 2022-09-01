@@ -239,7 +239,7 @@ h2 {
 
 /* DATA START*/
 .data-1 {
-    background-color: #F9FBFD;
+    background-color: #FFF;
 }
 
 .data-col-1 {
@@ -248,9 +248,8 @@ h2 {
     flex-direction: column;
     padding-top: 5em;
     width: 100%;
-    /* padding-left: 5em; */
+    padding-left: 5em;
     padding-bottom: 5em;
-
 }
 
 .data-col-2 img {
@@ -269,6 +268,44 @@ h2 {
 }
 
 /* DATA END */
+
+
+/* CLIENT START*/
+.client-1 {
+    background-color: #FFF;
+}
+
+.client-col-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 5em;
+    width: 100%;
+    padding-left: 5em;
+    padding-bottom: 5em;
+}
+
+.client-col-2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.client-col-1 .data-inner-col-1 {
+    width: 100%;
+    padding-left: 1em;
+
+}
+
+.logo-col {
+    width: 100%;
+    max-width: 1032px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+/* CLIENT END */
+
 
 
 
@@ -420,15 +457,14 @@ h2 {
         flex-direction: column;
         padding-top: 5em;
         width: 100%;
-        /* padding-left: 5em; */
-        padding-bottom: 5em;
+        padding-left: 1em;
+        padding-bottom: 1em;
 
     }
 
     .data-col-1 img {
         max-width: 100%;
         height: auto;
-        background-color: red;
     }
 
     .data-col-1 .data-inner-col-1 {
@@ -442,5 +478,31 @@ h2 {
     }
 
     /* DATA END */
+
+
+    /* CLIENT START*/
+.client-1 {
+    background-color: #FFF;
+}
+
+.client-col-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 5em;
+    width: 100%;
+    padding-left: 1em;
+    padding-bottom: 5em;
+}
+
+.logo-col {
+    width: 100%;
+    max-width: 1032px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+/* CLIENT END */
 
 }
