@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 100%;
     max-width: 1236px;
 
 }
@@ -31,7 +31,6 @@ h1 {
     font-style: normal;
     font-weight: 400;
     font-size: 5rem;
-    /* line-height: 115px; */
     letter-spacing: 6.96px;
     color: #393737;
     margin: 0;
@@ -147,6 +146,9 @@ header .nav-btn {
 .container-flex .hero {
     width: 100%;
     padding-bottom: 4em;
+    background: url(/Images/Hero/bkg-hero.png);
+    background-position: center;
+    background-size: cover;
 }
 
 .hero h1 {
@@ -161,21 +163,17 @@ header .nav-btn {
     }
 
     .container {
-        width: 90%;
+        width: 95%;
     }
 
     /* NAVIGATION START */
     header,
     .nav-container {
-        justify-content: space-between;
-        margin: 0 auto;
-        display: flex;
         flex-direction: column;
         align-items: center;
         width: 90%;
-        padding-top: 1em;
+        padding-top: 1.5em;
         padding-bottom: 1em;
-
     }
 
     header .nav-container,
@@ -216,8 +214,9 @@ header .nav-btn {
     }
 
     header .nav-btn {
-        width: 15%;
-        text-align: end;
+        width: 100%;
+        text-align: center;
+
 
     }
 
