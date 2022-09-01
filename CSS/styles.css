@@ -360,7 +360,6 @@ h2 {
 
     .about-col-1 img {
         max-width: 80%;
-        padding: O 5em;
     }
 
     .about-col-1 .about-inner-col-1 {
@@ -368,8 +367,9 @@ h2 {
     }
 
     .about-col-1 .about-inner-col-2 {
-        padding: 0 5em;
+        padding-top: 4em;
         width: 100%;
+        text-align: center;
     }
 
     /* ABOUT-US END */
