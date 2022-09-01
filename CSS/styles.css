@@ -163,10 +163,11 @@ header .nav-btn {
     background: url(/Images/Hero/bkg-hero.png);
     background-position: center;
     background-size: cover;
+
 }
 
 .hero h1 {
-    padding: .5em 0;
+    padding: .5em 0 1.5em;
 }
 
 /* HERO END */
@@ -174,12 +175,18 @@ header .nav-btn {
 
 /* ABOUT-US */
 
+.about-1 {
+    background-color: #F9FBFD;
+}
+
 .about-col-1 {
     display: flex;
     justify-content: space-between;
     padding-top: 5em;
     width: 100%;
     padding-left: 5em;
+    padding-bottom: 5em;
+
 }
 
 .about-col-1 img {
@@ -199,10 +206,20 @@ header .nav-btn {
 
 /* ABOUT DETAILS */
 
+.about-details-1 {
+    background-color: #F9FBFD;
+}
+
+.about-column,
+h2 {
+    line-height: 45px;
+}
+
+.about-column,
 .about-details {
-    background-color: green;
+    padding-left: 5em;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .about-details .about-details-col-1 {
@@ -290,7 +307,7 @@ header .nav-btn {
     /* HERO */
 
     .hero h1 {
-        padding: .5em 0;
+        padding: .5em 0 1.5em;
     }
 
 }
