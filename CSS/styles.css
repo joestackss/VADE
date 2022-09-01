@@ -255,6 +255,7 @@ h2 {
 
 .data-col-2 img {
     max-width: 100%;
+    height: auto;
 }
 
 .data-col-1 .data-inner-col-1 {
@@ -409,6 +410,36 @@ h2 {
 
 
     /* DATA START*/
+    .data-1 {
+        background-color: #F9FBFD;
+    }
+
+    .data-col-1 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-top: 5em;
+        width: 100%;
+        /* padding-left: 5em; */
+        padding-bottom: 5em;
+
+    }
+
+    .data-col-1 img {
+        max-width: 100%;
+        height: auto;
+        background-color: red;
+    }
+
+    .data-col-1 .data-inner-col-1 {
+        width: 100%;
+        padding-left: 1em;
+
+    }
+
+    .data-col-1 .data-inner-col-2 {
+        width: 100%;
+    }
 
     /* DATA END */
 
