@@ -564,6 +564,28 @@ input:focus {
 
 /* FORM END */
 
+/* FOOTER START */
+
+.footer-column {
+    display: flex;
+    background-color: red;
+    margin: 0 auto;
+}
+
+.footer-col-1 {
+    width: 60%;
+}
+
+.footer-col-2 {
+    width: 20%;
+}
+
+.footer-col-3 {
+    width: 20%;
+}
+
+/* FOOTER END */
+
 
 
 
