@@ -743,6 +743,57 @@ header .nav-btn {
     /* MANAGEMENT END */
 
 
+    
+/* POWER UP START */
+.container-flex .power {
+    width: 100%;
+
+}
+
+.powerUp {
+    background: url(/Images/Hero/power-bkg.svg), linear-gradient(#4E65FF11, #4E65FF11);
+    background-position: center;
+    background-size: cover;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.power h3 {
+    padding: 0 0 1.5em;
+    color: #4E66FF;
+    line-height: 75px;
+    letter-spacing: 3.84px;
+    margin: 0;
+}
+
+.power {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.power p {
+    color: #4E66FF;
+    margin: 0;
+    display: flex;
+    align-items: end;
+}
+
+.power .power-col-1 {
+    width: 100%;
+
+}
+
+.power .power-col-2 {
+    width: 100%;
+    display: flex;
+    align-items: end;
+}
+
+/* POWER UP END */
+
+
     /* BLOG POST START */
 
     .main-blog-container {
