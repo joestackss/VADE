@@ -110,6 +110,11 @@ p {
     color: #ffffff;
 }
 
+.btn-blue {
+    background: #393737;;
+    color: #ffffff;
+}
+
 .btn-black-outline {
     border: 1px solid rgba(57, 55, 55, 0.4);
     border-radius: 4px;
@@ -499,6 +504,68 @@ header .nav-btn {
 
 
 
+/* FORM START */
+
+.form {
+    background-color: #DDEBFF;
+}
+
+.form-column {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1236px;
+    gap: 1em;
+    padding: 8em 0;
+}
+
+.intro-col-1 {
+    width: 55%;
+    padding: 0 0 0 3em;
+}
+
+.form-col-1 {
+    width: 40%;
+}
+
+.form-column h2 {
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 1.32px;
+    color: #393737;
+    padding-bottom: 6em;
+    margin: 0;
+}
+
+.email-collector {
+    width: 100%;
+    max-width: 450px;
+}
+
+input {
+    margin-bottom: 1.3em;
+    padding: .75em;
+    transform: scale(1);
+    transition: transform 250ms;
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+}
+
+input:focus {
+    transform: scale(1.03);
+}
+
+/* FORM END */
+
+
+
+
 
 
 
@@ -743,55 +810,55 @@ header .nav-btn {
     /* MANAGEMENT END */
 
 
-    
-/* POWER UP START */
-.container-flex .power {
-    width: 100%;
 
-}
+    /* POWER UP START */
+    .container-flex .power {
+        width: 100%;
 
-.powerUp {
-    background: url(/Images/Hero/power-bkg.svg), linear-gradient(#4E65FF11, #4E65FF11);
-    background-position: center;
-    background-size: cover;
-    padding-top: 3em;
-    padding-bottom: 3em;
-}
+    }
 
-.power h3 {
-    padding: 0 0 1.5em;
-    color: #4E66FF;
-    line-height: 75px;
-    letter-spacing: 3.84px;
-    margin: 0;
-}
+    .powerUp {
+        background: url(/Images/Hero/power-bkg.svg), linear-gradient(#4E65FF11, #4E65FF11);
+        background-position: center;
+        background-size: cover;
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
 
-.power {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    .power h3 {
+        padding: 0 0 1.5em;
+        color: #4E66FF;
+        line-height: 75px;
+        letter-spacing: 3.84px;
+        margin: 0;
+    }
 
-}
+    .power {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
 
-.power p {
-    color: #4E66FF;
-    margin: 0;
-    display: flex;
-    align-items: end;
-}
+    }
 
-.power .power-col-1 {
-    width: 100%;
+    .power p {
+        color: #4E66FF;
+        margin: 0;
+        display: flex;
+        align-items: end;
+    }
 
-}
+    .power .power-col-1 {
+        width: 100%;
 
-.power .power-col-2 {
-    width: 100%;
-    display: flex;
-    align-items: end;
-}
+    }
 
-/* POWER UP END */
+    .power .power-col-2 {
+        width: 100%;
+        display: flex;
+        align-items: end;
+    }
+
+    /* POWER UP END */
 
 
     /* BLOG POST START */
@@ -808,12 +875,12 @@ header .nav-btn {
     }
 
     .blog-column h4 {
-       font-size: 1.3rem;
+        font-size: 1.3rem;
     }
 
     .blog-column p {
         font-size: 1.3rem;
-     }
+    }
 
     .blog-main-col {
         display: flex;
