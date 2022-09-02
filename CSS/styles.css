@@ -52,6 +52,16 @@ h2 {
     color: #393737;
 }
 
+h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 1rem;
+    color: #393737;
+    font-weight: 500;
+    padding-top: 0;
+    margin: 0;
+}
+
 p {
     font-family: 'Roboto';
     font-style: normal;
@@ -308,12 +318,76 @@ h2 {
     margin: 0 auto;
 }
 
+.logo-inner-col-1 {
+    display: flex;
+    width: 50%;
+}
+
+.logo-inner-col-2 {
+    display: flex;
+    width: 50%;
+}
+
 .logo-col-1 {
-    width: 20%;
-    background-color: red;
+    width: 50%;
+}
+
+.logo-col-2 {
+    width: 50%;
 }
 
 /* CLIENT END */
+
+
+
+/* MANAGEMENT */
+
+.management-1 {
+    background-color: #F9FBFD;
+}
+
+.management-col-1 {
+    display: flex;
+    width: 100%;
+    padding-left: 5em;
+    justify-content: space-between;
+}
+
+.municipal-text {
+    width: 50%;
+}
+
+.municipal-img {
+    width: 50%;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+
+}
+
+
+.municipal-img h5 {
+    padding-bottom: .7em;
+
+}
+
+.municipal-text p {
+    font-size: 1.5rem;
+    line-height: 46px;
+    color: #4E66FF;
+}
+
+/* MANAGEMENT END */
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -506,12 +580,52 @@ h2 {
 
     .logo-col {
         width: 100%;
-        max-width: 1032px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        flex-direction: column;
         margin: 0 auto;
     }
 
+    .logo-inner-col-1 {
+        display: flex;
+        width: 100%;
+    }
+
+    .logo-inner-col-2 {
+        display: flex;
+        width: 100%;
+    }
+
+    .logo-col-1 {
+        width: 50%;
+    }
+
+    .logo-col-2 {
+        width: 50%;
+    }
+
     /* CLIENT END */
+
+    /* MANAGEMENT START */
+
+    .management-1 {
+        background-color: #F9FBFD;
+    }
+
+    .management-col-1 {
+        padding-left: 1em;
+        flex-direction: column;
+    }
+
+    .municipal-text {
+        width: 100%;
+    }
+
+    .municipal-img {
+        width: 100%;
+
+    }
+
+    /* MANAGEMENT END */
 
 }
