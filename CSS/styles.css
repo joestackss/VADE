@@ -70,11 +70,11 @@ p {
 
 .btn {
     border-radius: 4px;
-    padding: .5em 2em;
+    padding: .8em 2em;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: .5rem;
+    font-size: .9rem;
     line-height: 24px;
     letter-spacing: 0.45px;
     color: #393737;
@@ -159,7 +159,7 @@ header .nav-btn {
 
 .container-flex .hero {
     width: 100%;
-    padding-bottom: 4em;
+    height: 100vh;
     background: url(/Images/Hero/bkg-hero.png);
     background-position: center;
     background-size: cover;
@@ -168,6 +168,10 @@ header .nav-btn {
 
 .hero h1 {
     padding: .5em 0 1.5em;
+}
+
+.hero p {
+    padding: 3.5em 0 3.5em;
 }
 
 /* HERO END */
@@ -302,6 +306,11 @@ h2 {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
+}
+
+.logo-col-1 {
+    width: 20%;
+    background-color: red;
 }
 
 /* CLIENT END */
@@ -481,28 +490,28 @@ h2 {
 
 
     /* CLIENT START*/
-.client-1 {
-    background-color: #FFF;
-}
+    .client-1 {
+        background-color: #FFF;
+    }
 
-.client-col-1 {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    padding-top: 5em;
-    width: 100%;
-    padding-left: 1em;
-    padding-bottom: 5em;
-}
+    .client-col-1 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-top: 5em;
+        width: 100%;
+        padding-left: 1em;
+        padding-bottom: 5em;
+    }
 
-.logo-col {
-    width: 100%;
-    max-width: 1032px;
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-}
+    .logo-col {
+        width: 100%;
+        max-width: 1032px;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
 
-/* CLIENT END */
+    /* CLIENT END */
 
 }
