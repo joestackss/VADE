@@ -979,7 +979,7 @@ input:focus {
     }
 
     .email-collector {
-        width: 100%;
+        width: 80%;
         max-width: 450px;
     }
 
