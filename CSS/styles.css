@@ -99,7 +99,7 @@ p {
     letter-spacing: 0.45px;
     color: #393737;
     border: 0;
-   
+
 }
 
 .btn-yellow {
@@ -585,27 +585,141 @@ input:focus {
 
 /* FORM END */
 
-/* FOOTER START */
 
-.footer-column {
+
+/* FOOTER */
+
+.footer {
+    /* background-image: url(/crypto-imageS/); */
+    background-color: #fff;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
     display: flex;
-    background-color: red;
-    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5em 0 2em;
+    color: #fff;
+
 }
 
-.footer-col-1 {
+.footer h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1.8em;
+}
+
+.footer-col {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.footer-col .col-1 {
     width: 60%;
 }
 
-.footer-col-2 {
+.footer-col .col-2 {
     width: 20%;
 }
 
-.footer-col-3 {
-    width: 20%;
+.footer-col .col-3 {
+    width: 25%;
 }
 
-/* FOOTER END */
+.footer-col .col-4 {
+    width: 30%;
+}
+
+.footer-col .col-4 p,
+img {
+    padding-bottom: 1em;
+}
+
+.footer h3 {
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* display: flex;
+    justify-content: end; */
+}
+
+footer li {
+    margin-bottom: 1em;
+    font-size: .9rem;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    padding: .25em 0;
+}
+
+footer a:hover,
+footer a:focus {
+    color: #3671E9;
+}
+
+.crappo-logo {
+    padding: 0;
+    margin: 0;
+}
+
+.brand-logo {
+    max-width: 72px;
+    margin-right: .6em;
+}
+
+
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1202px;
+    padding-top: 1em;
+}
+
+.footer-end .col-1 {
+    width: 50%;
+    display: flex;
+}
+
+hr {
+    border: 1px solid grey;
+}
+
+
+.footer-end .col-1 p {
+    margin-right: 2em;
+}
+
+.footer-end .col-2 {
+    width: 50%;
+    text-align: end;
+}
+
+.footer-end .col-2 img {
+    margin: 0 .9em;
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+}
 
 
 
@@ -616,9 +730,7 @@ input:focus {
 
 
 
-
-
-@media (max-width : 600px) {
+@media (max-width : 800px) {
     html {
         font-size: .8rem;
     }
@@ -969,7 +1081,6 @@ input:focus {
     /* BLOG POST END */
 
     /* FORM START */
-
     .form-column {
         display: flex;
         justify-content: space-between;
@@ -1021,6 +1132,114 @@ input:focus {
     /* FORM END */
 
 
+
+
+    /* FOOTER */
+
+    .footer h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 1.8em;
+    }
+
+    .footer-col {
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footer-col .col-1 {
+        width: 100%;
+        padding-bottom: 3em;
+        text-align: center;
+    }
+
+    .footer-col .col-2 {
+        width: 100%;
+        padding-bottom: 3em;
+        text-align: center;
+    }
+
+    .footer-col .col-3 {
+        width: 100%;
+        padding-bottom: 3em;
+        text-align: center;
+    }
+
+    .footer-col .col-4 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer h3 {
+        padding: 0;
+        margin: 0;
+    }
+
+
+    footer ul {
+        list-style: none;
+        padding: 0;
+        /* display: flex;
+    justify-content: end; */
+    }
+
+    footer li {
+        margin-bottom: 1em;
+        font-size: .9rem;
+
+    }
+
+    footer a {
+        text-decoration: none;
+        font-weight: 300;
+        padding: .25em 0;
+    }
+
+    footer a:hover,
+    footer a:focus {
+        color: #3671E9;
+    }
+
+    .brand-logo {
+        max-width: 72px;
+        margin-right: .6em;
+    }
+
+
+    .footer-end {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1202px;
+        padding-top: 5em;
+        text-align: center;
+    }
+
+    .footer-end .col-1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-end .col-2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-end .col-2 img {
+        text-align: center;
+        margin: 0 .9em;
+    }
+
+    .footer-end p {
+        text-align: center;
+    }
 
 
 }
